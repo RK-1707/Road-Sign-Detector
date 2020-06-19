@@ -72,7 +72,7 @@ def classify(file_path):
     pred = model.predict_classes([image])[0]
     sign = classes[pred+1]
     print(sign)
-    label.configure(foreground='#011638', text=sign) 
+    label.configure(foreground='#000000', text=sign) 
    
 
 def show_classify_button(file_path):
@@ -101,6 +101,6 @@ upload.pack(side=BOTTOM,pady=50)
 sign_image.pack(side=BOTTOM,expand=True)
 label.pack(side=BOTTOM,expand=True)
 heading = Label(top, text="Know Your Traffic Sign",pady=20, font=('arial',20,'bold'))
-heading.configure(background='#CDCDCD',foreground='#364156')
+heading.configure(background='#000000',foreground='#FFFFFF')
 heading.pack()
 top.mainloop()
