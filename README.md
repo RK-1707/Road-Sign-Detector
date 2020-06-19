@@ -5,6 +5,9 @@ A sample output is given below:
 
 ![Output](https://user-images.githubusercontent.com/60837429/85126067-5a44be00-b24a-11ea-809c-695f5654e389.png)
 
+The accuracy and loss graphs are:
+![accuracy-loss](https://user-images.githubusercontent.com/60837429/85126909-0c30ba00-b24c-11ea-9672-87f948390dba.png)
+
 The dataset for the following model can be downloaded from: https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign (300 mb).
 
 Tkinter details can be found here: https://www.geeksforgeeks.org/python-gui-tkinter/
